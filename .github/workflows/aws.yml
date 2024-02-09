@@ -17,5 +17,5 @@ jobs:
       - run: ls
       - run: npm install
         working-directory: client
-      - run: react-scripts build
+      - run: npm run build
         working-directory: client
