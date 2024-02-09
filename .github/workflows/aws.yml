@@ -15,5 +15,7 @@ jobs:
           node-version: '20.x'
       
       - run: ls
+      - run: npm install
+        working-directory: client
       - run: npm start
         working-directory: client
